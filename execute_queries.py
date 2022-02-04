@@ -9,8 +9,8 @@ cur.execute("""
         CREATE TABLE "customer" (
         "customer_id"	INTEGER NOT NULL,
         "customer_name"	VARCHAR(100) NOT NULL,
-        "customer_phone"	INTEGER NOT NULL UNIQUE,
-        "customer_email"	VARCHAR(120) NOT NULL UNIQUE,
+        "customer_phone"	INTEGER NOT NULL,
+        "customer_email"	VARCHAR(120) NOT NULL,
         "rental_date"	TIMESTAMP NOT NULL,
         "vehicle_type"	varchar(20) NOT NULL,
         "return_date"	TIMESTAMP DEFAULT NULL,
