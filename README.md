@@ -13,3 +13,18 @@ A console app to manage rental details of vehicles in the inventory
 ## Viewing the Customer Table
 
 ![Customer Table View](Images/table_view.png)
+
+## To Run this app
+
+Install phonenumbers module via pip, in the terminal or command line
+
+```
+pip install phonenumbers
+```
+
+Then run the customer_app.py file
+
+```
+python customer_app.py
+```
+
