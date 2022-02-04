@@ -6,7 +6,7 @@ A console app to manage rental details of vehicles in the inventory
 
 ![Customer details](Images/adding_to_database.png)
 
-## If the vehicle is already booked out
+## Check If the vehicle is already booked out
 
 ![Already Booked](Images/already_booked_case.png)
 
